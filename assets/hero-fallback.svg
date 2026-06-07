@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Students supporting shelter animals</title>
+  <desc id="desc">A hopeful illustration of students with a shelter dog, cat, towels, and pet supplies.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#d9edf4"/>
+      <stop offset="0.56" stop-color="#eff8f4"/>
+      <stop offset="1" stop-color="#fbf8ef"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" x2="1">
+      <stop offset="0" stop-color="#b7dcd8"/>
+      <stop offset="1" stop-color="#e7f2ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <circle cx="180" cy="150" r="84" fill="#fff7db" opacity=".8"/>
+  <rect x="0" y="630" width="1200" height="270" fill="url(#floor)"/>
+  <rect x="100" y="104" width="336" height="228" rx="8" fill="#ffffff" opacity=".78"/>
+  <path d="M132 304h272V132H132z" fill="#b8d9df"/>
+  <path d="M162 284V152h212v132" fill="#f7fcfb"/>
+  <path d="M162 218h212M268 152v132" stroke="#97c3c8" stroke-width="10"/>
+  <path d="M740 116c78 18 142 70 185 140 48 79 116 98 189 118" fill="none" stroke="#96c9b8" stroke-width="18" stroke-linecap="round" opacity=".45"/>
+  <path d="M813 164c-40 48-48 96-26 144M910 222c-28 44-28 83-3 119M1010 304c-27 20-50 43-69 70" fill="none" stroke="#6fae9b" stroke-width="10" stroke-linecap="round" opacity=".55"/>
+
+  <g transform="translate(116 568)">
+    <rect x="0" y="44" width="196" height="76" rx="24" fill="#7fb9c7"/>
+    <rect x="24" y="10" width="190" height="74" rx="24" fill="#e3f2ef"/>
+    <rect x="38" y="0" width="190" height="72" rx="24" fill="#ffffff"/>
+    <path d="M60 34h128" stroke="#7fb9c7" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(260 475)">
+    <ellipse cx="198" cy="192" rx="198" ry="82" fill="#6fae9b" opacity=".18"/>
+    <path d="M104 146c14-56 56-96 122-95 74 1 132 51 143 115l-24 102H92z" fill="#c8955b"/>
+    <path d="M124 135C93 94 73 62 94 38c29 8 56 32 80 71M303 134c34-39 57-72 38-98-32 8-61 32-88 74" fill="#9f6b3c"/>
+    <circle cx="188" cy="150" r="15" fill="#17333a"/>
+    <circle cx="267" cy="150" r="15" fill="#17333a"/>
+    <path d="M213 189c15 15 35 15 50 0" fill="none" stroke="#17333a" stroke-width="9" stroke-linecap="round"/>
+    <path d="M231 171l19 16 18-16" fill="#17333a"/>
+    <path d="M84 256h60l18 95h-57zM282 256h58l-16 95h-56z" fill="#8d5d34"/>
+    <path d="M358 192c54 2 102 26 126 68" fill="none" stroke="#c8955b" stroke-width="34" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(750 522)">
+    <ellipse cx="144" cy="174" rx="150" ry="58" fill="#6fae9b" opacity=".18"/>
+    <path d="M57 122c10-62 62-110 130-105 62 5 107 52 116 111 11 70-36 128-119 128-80 0-138-59-127-134z" fill="#f7f3ea"/>
+    <path d="M77 111C49 70 39 36 61 19c29 11 55 39 77 76M241 100c35-32 65-50 87-36-7 34-28 65-65 89" fill="#d6a06b"/>
+    <path d="M132 136c6 14 18 23 33 24 17 0 31-9 39-24" fill="none" stroke="#17333a" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="125" cy="112" r="12" fill="#17333a"/>
+    <circle cx="218" cy="112" r="12" fill="#17333a"/>
+    <path d="M163 136l19 15 19-15" fill="#cc7770"/>
+    <path d="M81 233l-30 82M255 233l39 82" stroke="#d6a06b" stroke-width="23" stroke-linecap="round"/>
+    <path d="M308 150c52 3 86 27 104 72" fill="none" stroke="#d6a06b" stroke-width="24" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(705 300)">
+    <circle cx="80" cy="62" r="52" fill="#6f4b38"/>
+    <path d="M22 168c12-61 53-94 115-98 69 17 98 58 100 124v168H34z" fill="#2e7d96"/>
+    <path d="M54 28c34-33 83-34 113 2-7 39-22 65-52 77-35-8-56-32-61-79z" fill="#8d6045"/>
+    <path d="M53 216h168" stroke="#d9edf4" stroke-width="12" stroke-linecap="round"/>
+    <path d="M137 186c48 42 94 62 146 64" fill="none" stroke="#8d6045" stroke-width="28" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(905 318)">
+    <circle cx="72" cy="58" r="48" fill="#5b382c"/>
+    <path d="M24 154c10-55 47-84 102-88 62 15 88 52 90 112v150H34z" fill="#3d8b78"/>
+    <path d="M42 30c31-30 75-31 102 2-6 35-20 59-47 70-31-8-50-29-55-72z" fill="#7b4e3a"/>
+    <path d="M123 173c-31 42-72 64-125 66" fill="none" stroke="#7b4e3a" stroke-width="24" stroke-linecap="round"/>
+    <rect x="-44" y="218" width="120" height="64" rx="8" fill="#ffffff"/>
+    <path d="M-25 241h82M-25 260h64" stroke="#7fb9c7" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>
