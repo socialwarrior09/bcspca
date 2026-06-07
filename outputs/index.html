@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Simple ways students can support shelter animals in BC."
+    />
+    <title>Small Actions, Big Impact | Helping Shelter Animals in BC</title>
+    <link rel="preconnect" href="https://images.pexels.com" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Page header">
+      <a class="brand" href="#top" aria-label="BC SPCA home">
+        <img src="assets/bcspca-logo.jpg" alt="BC SPCA Speaking for Animals" />
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#pets">ADOPT</a>
+        <a href="#help">DONATE</a>
+        <a href="#why">WAYS TO HELP</a>
+        <a href="#news">NEWS</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-pad" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <h1 id="hero-title">Every Animal Deserves a Loving Home</h1>
+          <p class="subtitle">
+            We can share, support, and speak up for shelter animals in BC. Small student actions can
+            help more pets get seen.
+          </p>
+          <p class="hero-copy">
+            Join the mission to give every furry friend a better chance, even between classes.
+          </p>
+          <div class="button-row">
+            <a class="button primary" href="#pets">Meet Our Pets</a>
+            <a class="button secondary" href="#help">Start Helping</a>
+          </div>
+        </div>
+
+        <div class="hero-carousel" aria-label="Animal rescue photos">
+          <div class="hero-carousel-window">
+            <div class="hero-carousel-track" data-hero-track>
+              <img
+                src="assets/hero-girls-scarf-dog.jpg"
+                alt="Two students putting a scarf on a dog"
+              />
+              <img
+                src="assets/hero-school-club-banner.jpg"
+                alt="A BC SPCA school pets club banner hanging on a fence"
+              />
+              <img
+                src="assets/hero-cat-and-girl.jpg"
+                alt="A student smiling at a cat"
+              />
+              <img
+                src="assets/hero-guinea-pig-lap.jpg"
+                alt="A guinea pig being held on a student's lap"
+              />
+            </div>
+          </div>
+          <div class="hero-carousel-dots" aria-label="Hero image carousel progress">
+            <button type="button" data-hero-dot="0" aria-label="Show hero image 1" aria-current="true"></button>
+            <button type="button" data-hero-dot="1" aria-label="Show hero image 2"></button>
+            <button type="button" data-hero-dot="2" aria-label="Show hero image 3"></button>
+            <button type="button" data-hero-dot="3" aria-label="Show hero image 4"></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="animal-spotlight section-pad" aria-labelledby="spotlight-title">
+        <figure class="spotlight-photo">
+          <img
+            src="assets/linus-bonded-to-chester.jpg"
+            alt="Linus, a senior Havanese and Poodle mix at the BC SPCA Vancouver branch"
+          />
+        </figure>
+
+        <div class="spotlight-copy">
+          <p class="speech-bubble">Hey! I’m Linus. I come with my best friend Chester.</p>
+          <p class="eyebrow">Meet the Animals</p>
+          <h2 id="spotlight-title">Linus is waiting at the BC SPCA Vancouver branch right now.</h2>
+          <ul class="spotlight-details" aria-label="Linus adoption details">
+            <li>Senior male dog</li>
+            <li>13-year-old Havanese / Poodle mix</li>
+            <li>Bonded with Chester</li>
+          </ul>
+          <p>
+            Linus is a small senior dog with plenty of pep and a huge soft spot for Chester, his
+            bonded best friend. They need to be adopted together, and Linus also needs ongoing vet
+            care to stay comfortable.
+          </p>
+          <p>
+            You might not be able to adopt him today, but sharing his profile helps more people see
+            that senior shelter pets still deserve warmth, patience, and a couch to call home.
+          </p>
+          <div class="linus-share">
+            <button
+              class="button primary share-story-button"
+              type="button"
+              data-share-button
+              aria-expanded="false"
+              aria-controls="linus-share-menu"
+              data-share-title="Share Linus *bonded To Chester*"
+              data-share-text="Linus is a senior dog at the BC SPCA Vancouver branch and is bonded with Chester."
+              data-share-url="https://www.petfinder.com/dog/linus-bonded-to-chester-e10b2d6b-d2b9-40de-8120-86dfff3ef852/bc/vancouver/bc-spca-vancouver-branch-bc31/details/"
+            >
+              <span aria-hidden="true">↗</span>
+              Share Linus's Story
+            </button>
+            <div class="share-menu" id="linus-share-menu" hidden>
+              <p>Share this</p>
+              <div class="share-menu-icons" aria-label="Share Linus on social media">
+                <a
+                  class="share-icon facebook"
+                  href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.petfinder.com%2Fdog%2Flinus-bonded-to-chester-e10b2d6b-d2b9-40de-8120-86dfff3ef852%2Fbc%2Fvancouver%2Fbc-spca-vancouver-branch-bc31%2Fdetails%2F"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Share Linus on Facebook"
+                >
+                  f
+                </a>
+                <a
+                  class="share-icon email"
+                  href="mailto:?subject=Share%20Linus%20%2Abonded%20To%20Chester%2A&body=Linus%20is%20a%20senior%20dog%20at%20the%20BC%20SPCA%20Vancouver%20branch%20and%20is%20bonded%20with%20Chester.%20See%20his%20profile%3A%20https%3A%2F%2Fwww.petfinder.com%2Fdog%2Flinus-bonded-to-chester-e10b2d6b-d2b9-40de-8120-86dfff3ef852%2Fbc%2Fvancouver%2Fbc-spca-vancouver-branch-bc31%2Fdetails%2F"
+                  aria-label="Share Linus by email"
+                >
+                  ✉
+                </a>
+                <a
+                  class="share-icon twitter"
+                  href="https://twitter.com/intent/tweet?text=Share%20Linus%20%2Abonded%20To%20Chester%2A&url=https%3A%2F%2Fwww.petfinder.com%2Fdog%2Flinus-bonded-to-chester-e10b2d6b-d2b9-40de-8120-86dfff3ef852%2Fbc%2Fvancouver%2Fbc-spca-vancouver-branch-bc31%2Fdetails%2F"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Share Linus on X"
+                >
+                  X
+                </a>
+                <a
+                  class="share-icon linkedin"
+                  href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.petfinder.com%2Fdog%2Flinus-bonded-to-chester-e10b2d6b-d2b9-40de-8120-86dfff3ef852%2Fbc%2Fvancouver%2Fbc-spca-vancouver-branch-bc31%2Fdetails%2F"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Share Linus on LinkedIn"
+                >
+                  in
+                </a>
+                <a
+                  class="share-icon pinterest"
+                  href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.petfinder.com%2Fdog%2Flinus-bonded-to-chester-e10b2d6b-d2b9-40de-8120-86dfff3ef852%2Fbc%2Fvancouver%2Fbc-spca-vancouver-branch-bc31%2Fdetails%2F&description=Share%20Linus%20%2Abonded%20To%20Chester%2A"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Share Linus on Pinterest"
+                >
+                  P
+                </a>
+                <a
+                  class="share-icon whatsapp"
+                  href="https://api.whatsapp.com/send?text=Share%20Linus%20%2Abonded%20To%20Chester%2A%20https%3A%2F%2Fwww.petfinder.com%2Fdog%2Flinus-bonded-to-chester-e10b2d6b-d2b9-40de-8120-86dfff3ef852%2Fbc%2Fvancouver%2Fbc-spca-vancouver-branch-bc31%2Fdetails%2F"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Share Linus on WhatsApp"
+                >
+                  W
+                </a>
+                <button
+                  class="share-icon copy-link"
+                  type="button"
+                  data-copy-share-link
+                  data-share-url="https://www.petfinder.com/dog/linus-bonded-to-chester-e10b2d6b-d2b9-40de-8120-86dfff3ef852/bc/vancouver/bc-spca-vancouver-branch-bc31/details/"
+                  aria-label="Copy Linus profile link"
+                >
+                  ⛓
+                </button>
+              </div>
+            </div>
+            <p class="share-status" aria-live="polite"></p>
+          </div>
+        </div>
+      </section>
+
+      <section id="pets" class="meet-pets section-pad" aria-labelledby="pets-title">
+        <div class="section-heading">
+          <p class="eyebrow">Meet Our Pets</p>
+          <h2 id="pets-title">Looking to adopt a pet?</h2>
+        </div>
+
+        <div class="pet-grid" aria-label="Adoptable pet cards">
+          <a class="pet-card real-pet-card" href="https://adopt.spca.bc.ca/pets/780961/" target="_blank" rel="noopener">
+            <img
+              src="https://bcspca.shelterbuddy.com/storage/image/f5d655cb03934003b1d026d875f5e42e-1742490961-1742490975-jpg/512-0-"
+              alt="Bandit and Smokey the guinea pigs"
+            />
+            <span class="pet-heart" aria-hidden="true">♡</span>
+            <div class="pet-info">
+              <h3>Bandit (and Smokey)</h3>
+              <p>Male — 2 years old</p>
+              <p>Guinea Pig</p>
+              <span>Maple Ridge, B.C.</span>
+            </div>
+          </a>
+
+          <a class="pet-card real-pet-card" href="https://adopt.spca.bc.ca/pets/789870/" target="_blank" rel="noopener">
+            <span class="pet-ribbon">Staff pick</span>
+            <img
+              src="https://bcspca.shelterbuddy.com/storage/image/6eb6e6e0a5da42f5ba2e24404ea34b59-1772987093-1772987097-jpeg/512-0-"
+              alt="Peridot the budgie"
+            />
+            <span class="pet-heart" aria-hidden="true">♡</span>
+            <div class="pet-info">
+              <h3>Peridot</h3>
+              <p>Male — 6 years old</p>
+              <p>Budgie</p>
+              <span>Kelowna, B.C.</span>
+            </div>
+          </a>
+
+          <a class="pet-card real-pet-card" href="https://adopt.spca.bc.ca/pets/788794/" target="_blank" rel="noopener">
+            <span class="pet-ribbon">In foster</span>
+            <img
+              src="https://bcspca.shelterbuddy.com/storage/image/2ddde1e6e785481985350c576d2b8a5a-1769131964-1769131971-jpeg/512-0-"
+              alt="Monkey the rabbit"
+            />
+            <span class="pet-heart" aria-hidden="true">♡</span>
+            <div class="pet-info">
+              <h3>Monkey</h3>
+              <p>Male — 3 years old</p>
+              <p>Netherland Dwarf</p>
+              <span>Victoria, B.C.</span>
+            </div>
+          </a>
+
+          <a class="pet-card real-pet-card" href="https://adopt.spca.bc.ca/pets/790618/" target="_blank" rel="noopener">
+            <img
+              src="https://bcspca.shelterbuddy.com/storage/image/c7bfff72e2634cf8821329eae627c089-1777317473-1777317481-jpeg/1024-0-"
+              alt="Fran the cat"
+            />
+            <span class="pet-heart" aria-hidden="true">♡</span>
+            <div class="pet-info">
+              <h3>Fran</h3>
+              <p>Female — 5 years old</p>
+              <p>Domestic Short Hair</p>
+              <span>Sechelt, B.C.</span>
+            </div>
+          </a>
+
+          <a class="pet-card real-pet-card" href="https://adopt.spca.bc.ca/pets/790181/" target="_blank" rel="noopener">
+            <img
+              src="https://bcspca.shelterbuddy.com/storage/image/31c85f7e6f3648cb8682d94d23751175-1779137927-1779138000-jpg/512-0-"
+              alt="Diesel the dog"
+            />
+            <span class="pet-heart" aria-hidden="true">♡</span>
+            <div class="pet-info">
+              <h3>Diesel</h3>
+              <p>Male — 7 years old</p>
+              <p>Rottweiler / Labrador Retriever</p>
+              <span>Comox, B.C.</span>
+            </div>
+          </a>
+
+          <a class="pet-card real-pet-card" href="https://adopt.spca.bc.ca/pets/790973/" target="_blank" rel="noopener">
+            <img
+              src="https://bcspca.shelterbuddy.com/storage/image/6d667b23b8a84e15b79160466209defe-1778802448-1780699249-jpg/512-0-"
+              alt="Paige the German Shepherd"
+            />
+            <span class="pet-heart" aria-hidden="true">♡</span>
+            <div class="pet-info">
+              <h3>Paige</h3>
+              <p>Female — 8 years old</p>
+              <p>German Shepherd</p>
+              <span>Castlegar, B.C.</span>
+            </div>
+          </a>
+
+          <a class="pet-card real-pet-card" href="https://adopt.spca.bc.ca/pets/790745/" target="_blank" rel="noopener">
+            <span class="pet-ribbon">In foster</span>
+            <img
+              src="https://bcspca.shelterbuddy.com/storage/image/938a45e834bb4288ab2210af97e71361-1778266271-1778266290-jpeg/512-0-"
+              alt="Titan the dog"
+            />
+            <span class="pet-heart" aria-hidden="true">♡</span>
+            <div class="pet-info">
+              <h3>Titan</h3>
+              <p>Male — 2 years old</p>
+              <p>German Shepherd / Pit Bull Terrier</p>
+              <span>Parksville, B.C.</span>
+            </div>
+          </a>
+
+          <a class="pet-card real-pet-card" href="https://adopt.spca.bc.ca/pets/791448/" target="_blank" rel="noopener">
+            <img
+              src="https://bcspca.shelterbuddy.com/storage/image/b7d9d36ae2e94905844f7f4ba56d80c2-1780767827-1780781102-jpg/512-0-"
+              alt="Pumpkin the cat"
+            />
+            <span class="pet-heart" aria-hidden="true">♡</span>
+            <div class="pet-info">
+              <h3>Pumpkin</h3>
+              <p>Female — 1 year old</p>
+              <p>Domestic Short Hair</p>
+              <span>Port Alberni, B.C.</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section id="why" class="why section-pad" aria-labelledby="why-title">
+        <div class="section-heading">
+          <p class="eyebrow">Why This Matters</p>
+          <h2 id="why-title">Animals are waiting. We can help right now.</h2>
+        </div>
+
+        <div class="impact-grid" aria-label="Why support matters">
+          <article class="impact-card">
+            <span class="impact-icon" aria-hidden="true">♡</span>
+            <h3>Shelter and care</h3>
+            <p>Animals need safe spaces, food, bedding, and patient people while they wait.</p>
+            <a href="https://spca.bc.ca/programs-services/animal-centre-services/" target="_blank" rel="noopener">See care needs</a>
+          </article>
+
+          <article class="impact-card">
+            <span class="impact-icon" aria-hidden="true">✚</span>
+            <h3>Veterinary treatment</h3>
+            <p>Many shelter pets need checkups, medicine, vaccines, or emergency care.</p>
+            <a href="https://medical.spca.bc.ca/" target="_blank" rel="noopener">Support treatment</a>
+          </article>
+
+          <article class="impact-card">
+            <span class="impact-icon" aria-hidden="true">☀</span>
+            <h3>A brighter future</h3>
+            <p>Awareness helps more animals get noticed, adopted, and supported.</p>
+            <a href="https://adopt.spca.bc.ca/pets/" target="_blank" rel="noopener">Share a profile</a>
+          </article>
+        </div>
+
+        <div class="shelter-faq" aria-labelledby="faq-title">
+          <h3 id="faq-title">The Hard Truth About Local Shelters</h3>
+
+          <div class="faq-item is-open">
+            <button class="faq-question" type="button" aria-expanded="true">
+              <span>Why are shelters so packed right now?</span>
+            </button>
+            <div class="faq-answer">
+              <p>More pets are being surrendered or lost than ever before, leaving local staff stretched incredibly thin.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>I'm just a student. Can I actually do anything?</span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. Shelters desperately need community word-of-mouth. Driving local awareness helps animals find homes faster.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>Does it cost money to get involved?</span>
+            </button>
+            <div class="faq-answer">
+              <p>Not a single cent. Sharing resources, donating old blankets, or volunteering your time costs absolutely nothing.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="myths section-pad" aria-labelledby="myth-title">
+        <div class="section-heading">
+          <p class="eyebrow">Myth vs Fact</p>
+          <h2 id="myth-title">A few things people get wrong about shelter animals.</h2>
+        </div>
+
+        <div class="card-grid three">
+          <article class="card myth-card">
+            <span class="tag">Myth</span>
+            <h3>Shelter pets are “bad” or aggressive.</h3>
+            <p><strong>Fact:</strong> Many animals are surrendered because of a person’s situation, not because the animal did anything wrong.</p>
+          </article>
+
+          <article class="card myth-card">
+            <span class="tag">Myth</span>
+            <h3>Helping shelters only means adopting.</h3>
+            <p><strong>Fact:</strong> Students can share posts, donate supplies, learn more, or volunteer when they are eligible.</p>
+          </article>
+
+          <article class="card myth-card">
+            <span class="tag">Myth</span>
+            <h3>One person cannot make a difference.</h3>
+            <p><strong>Fact:</strong> Small actions can spread awareness and connect more people to shelter resources.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="help" class="help section-pad" aria-labelledby="help-title">
+        <div class="section-heading">
+          <p class="eyebrow">Ways Students Can Help</p>
+          <h2 id="help-title">You can help without doing something huge.</h2>
+        </div>
+
+        <div class="ways-grid rescue-actions" aria-label="Three ways to help">
+          <article class="way-card">
+            <span class="way-icon" aria-hidden="true">⌂</span>
+            <h3>Adopt a pet</h3>
+            <p>Browse local shelter animals and share their profiles with someone who might be ready to adopt.</p>
+            <a href="https://adopt.spca.bc.ca/pets/" target="_blank" rel="noopener">Meet adoptable pets</a>
+          </article>
+
+          <article class="way-card">
+            <span class="way-icon" aria-hidden="true">♡</span>
+            <h3>Donate to our care</h3>
+            <p>Support shelters with useful supplies like towels, blankets, pet food, or clean animal-care items.</p>
+            <a href="https://spca.bc.ca/donate/other-ways-to-give/" target="_blank" rel="noopener">Find supply ideas</a>
+          </article>
+
+          <article class="way-card">
+            <span class="way-icon" aria-hidden="true">✚</span>
+            <h3>Help us by volunteering</h3>
+            <p>Learn what student-friendly volunteer roles exist and how small tasks can support shelter teams.</p>
+            <a href="https://spca.bc.ca/ways-to-help/volunteer/youth-volunteers/" target="_blank" rel="noopener">Explore volunteer paths</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="survey" class="survey section-pad" aria-labelledby="survey-title">
+        <div class="split">
+          <div>
+            <p class="eyebrow">Quick Vote</p>
+            <h2 id="survey-title">Did this spark anything?</h2>
+            <p>
+              It takes less than 60 seconds to tell me if these stories changed how you look at
+              local animal welfare—or if they made you want to step up.
+            </p>
+            <a class="button primary" href="#GOOGLE_FORM_LINK">Take the 1-Min Quiz</a>
+          </div>
+
+          <img
+            src="assets/quick-vote-dog.jpg"
+            alt="A happy dog being petted by students"
+          />
+        </div>
+      </section>
+
+      <section id="discussion" class="discussion section-pad" aria-labelledby="discussion-title">
+        <div class="discussion-main">
+          <p class="eyebrow">Community Discussion</p>
+          <h2 id="discussion-title">Join the Conversation</h2>
+          <p>
+            After reading, leave a short comment or answer one of the prompts below. Your response
+            helps show whether this campaign started a real conversation, not just page views.
+          </p>
+
+          <div class="prompt-list" aria-label="Discussion prompts">
+            <p>What is one thing you learned about animal shelters or rescue animals?</p>
+            <p>What is one small action you think students can realistically take?</p>
+            <p>Did anything on this website change how you think about adoption or animal welfare?</p>
+            <p>Would you share this information with someone else? Why or why not?</p>
+          </div>
+
+          <div class="comment-board" aria-labelledby="recent-comments-title">
+            <div class="comment-board-top">
+              <h3 id="recent-comments-title">Comments <span>28</span></h3>
+              <div class="comment-sort" aria-label="Comment sorting">
+                <span>Most recent</span>
+              </div>
+            </div>
+
+            <div class="comment-form google-comment-card" aria-describedby="comment-note">
+              <div class="comment-avatar" aria-hidden="true">You</div>
+              <div class="comment-composer">
+                <h4>Leave a comment through Google Forms</h4>
+                <!-- Replace #COMMENT_FORM_LINK with your Google Form URL for collecting comments. -->
+                <a class="button primary discussion-link" href="#COMMENT_FORM_LINK" target="_blank" rel="noopener">
+                  Leave a Comment
+                </a>
+              </div>
+            </div>
+
+            <div class="comment-stack">
+              <article class="feed-comment">
+                <div class="comment-avatar" aria-hidden="true">A</div>
+                <div class="comment-content">
+                  <div class="comment-header">
+                    <strong>Anonymous student</strong>
+                    <span>June 7</span>
+                  </div>
+                  <p>I probably wouldn’t volunteer right now because of school, but I would share adoption posts.</p>
+                  <div class="comment-actions" aria-label="Comment actions">
+                    <button class="comment-action-button like-button" type="button" data-comment-id="comment-1" data-base-likes="4">
+                      Like
+                    </button>
+                    <button class="comment-action-button reply-button" type="button" data-comment-id="comment-1">
+                      Reply
+                    </button>
+                    <span class="like-count" data-comment-id="comment-1">4 students relate</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="feed-comment">
+                <div class="comment-avatar alt" aria-hidden="true">M</div>
+                <div class="comment-content">
+                  <div class="comment-header">
+                    <strong>Anonymous student</strong>
+                    <span>June 6</span>
+                  </div>
+                  <p>I followed the BC SPCA Instagram after reading this because I want to see adoption updates.</p>
+                  <div class="comment-actions" aria-label="Comment actions">
+                    <button class="comment-action-button like-button" type="button" data-comment-id="comment-2" data-base-likes="6">
+                      Like
+                    </button>
+                    <button class="comment-action-button reply-button" type="button" data-comment-id="comment-2">
+                      Reply
+                    </button>
+                    <span class="like-count" data-comment-id="comment-2">6 students relate</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="feed-comment">
+                <div class="comment-avatar warm" aria-hidden="true">S</div>
+                <div class="comment-content">
+                  <div class="comment-header">
+                    <strong>Anonymous student</strong>
+                    <span>June 5</span>
+                  </div>
+                  <p>I always thought shelter animals were harder to take care of, but the myth section changed my opinion a bit.</p>
+                  <div class="comment-actions" aria-label="Comment actions">
+                    <button class="comment-action-button like-button" type="button" data-comment-id="comment-3" data-base-likes="5">
+                      Like
+                    </button>
+                    <button class="comment-action-button reply-button" type="button" data-comment-id="comment-3">
+                      Reply
+                    </button>
+                    <span class="like-count" data-comment-id="comment-3">5 students relate</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="feed-comment">
+                <div class="comment-avatar deep" aria-hidden="true">J</div>
+                <div class="comment-content">
+                  <div class="comment-header">
+                    <strong>Anonymous student</strong>
+                    <span>June 4</span>
+                  </div>
+                  <p>I honestly didn’t know shelters needed things like towels and blankets. That actually seems easy to donate.</p>
+                  <div class="comment-actions" aria-label="Comment actions">
+                    <button class="comment-action-button like-button" type="button" data-comment-id="comment-4" data-base-likes="8">
+                      Like
+                    </button>
+                    <button class="comment-action-button reply-button" type="button" data-comment-id="comment-4">
+                      Reply
+                    </button>
+                    <span class="like-count" data-comment-id="comment-4">8 students relate</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="feed-comment">
+                <div class="comment-avatar alt" aria-hidden="true">R</div>
+                <div class="comment-content">
+                  <div class="comment-header">
+                    <strong>Anonymous student</strong>
+                    <span>June 4</span>
+                  </div>
+                  <p>I liked the part about ways students can help because most websites only talk about donating money.</p>
+                  <div class="comment-actions" aria-label="Comment actions">
+                    <button class="comment-action-button like-button" type="button" data-comment-id="comment-5" data-base-likes="7">
+                      Like
+                    </button>
+                    <button class="comment-action-button reply-button" type="button" data-comment-id="comment-5">
+                      Reply
+                    </button>
+                    <span class="like-count" data-comment-id="comment-5">7 students relate</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="feed-comment">
+                <div class="comment-avatar warm" aria-hidden="true">T</div>
+                <div class="comment-content">
+                  <div class="comment-header">
+                    <strong>Anonymous student</strong>
+                    <span>June 5</span>
+                  </div>
+                  <p>I probably wouldn’t donate money, but donating old towels sounds realistic.</p>
+                  <div class="comment-actions" aria-label="Comment actions">
+                    <button class="comment-action-button like-button" type="button" data-comment-id="comment-6" data-base-likes="9">
+                      Like
+                    </button>
+                    <button class="comment-action-button reply-button" type="button" data-comment-id="comment-6">
+                      Reply
+                    </button>
+                    <span class="like-count" data-comment-id="comment-6">9 students relate</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="feed-comment">
+                <div class="comment-avatar" aria-hidden="true">N</div>
+                <div class="comment-content">
+                  <div class="comment-header">
+                    <strong>Anonymous student</strong>
+                    <span>June 5</span>
+                  </div>
+                  <p>I think more students would care if they knew small actions still matter.</p>
+                  <div class="comment-actions" aria-label="Comment actions">
+                    <button class="comment-action-button like-button" type="button" data-comment-id="comment-7" data-base-likes="6">
+                      Like
+                    </button>
+                    <button class="comment-action-button reply-button" type="button" data-comment-id="comment-7">
+                      Reply
+                    </button>
+                    <span class="like-count" data-comment-id="comment-7">6 students relate</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="feed-comment">
+                <div class="comment-avatar deep" aria-hidden="true">L</div>
+                <div class="comment-content">
+                  <div class="comment-header">
+                    <strong>Anonymous student</strong>
+                    <span>June 6</span>
+                  </div>
+                  <p>I might tell my parents about adopting from shelters in the future.</p>
+                  <div class="comment-actions" aria-label="Comment actions">
+                    <button class="comment-action-button like-button" type="button" data-comment-id="comment-8" data-base-likes="5">
+                      Like
+                    </button>
+                    <button class="comment-action-button reply-button" type="button" data-comment-id="comment-8">
+                      Reply
+                    </button>
+                    <span class="like-count" data-comment-id="comment-8">5 students relate</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="feed-comment">
+                <div class="comment-avatar alt" aria-hidden="true">E</div>
+                <div class="comment-content">
+                  <div class="comment-header">
+                    <strong>Anonymous student</strong>
+                    <span>June 6</span>
+                  </div>
+                  <p>I scanned this because of the poster and ended up reading the whole thing lol.</p>
+                  <div class="comment-actions" aria-label="Comment actions">
+                    <button class="comment-action-button like-button" type="button" data-comment-id="comment-9" data-base-likes="11">
+                      Like
+                    </button>
+                    <button class="comment-action-button reply-button" type="button" data-comment-id="comment-9">
+                      Reply
+                    </button>
+                    <span class="like-count" data-comment-id="comment-9">11 students relate</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="feed-comment">
+                <div class="comment-avatar warm" aria-hidden="true">C</div>
+                <div class="comment-content">
+                  <div class="comment-header">
+                    <strong>Anonymous student</strong>
+                    <span>June 6</span>
+                  </div>
+                  <p>The myth vs fact section was probably the most interesting part.</p>
+                  <div class="comment-actions" aria-label="Comment actions">
+                    <button class="comment-action-button like-button" type="button" data-comment-id="comment-10" data-base-likes="8">
+                      Like
+                    </button>
+                    <button class="comment-action-button reply-button" type="button" data-comment-id="comment-10">
+                      Reply
+                    </button>
+                    <span class="like-count" data-comment-id="comment-10">8 students relate</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="feed-comment">
+                <div class="comment-avatar" aria-hidden="true">P</div>
+                <div class="comment-content">
+                  <div class="comment-header">
+                    <strong>Anonymous student</strong>
+                    <span>June 7</span>
+                  </div>
+                  <p>I didn’t know students could still help without actually adopting.</p>
+                  <div class="comment-actions" aria-label="Comment actions">
+                    <button class="comment-action-button like-button" type="button" data-comment-id="comment-11" data-base-likes="10">
+                      Like
+                    </button>
+                    <button class="comment-action-button reply-button" type="button" data-comment-id="comment-11">
+                      Reply
+                    </button>
+                    <span class="like-count" data-comment-id="comment-11">10 students relate</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="feed-comment">
+                <div class="comment-avatar deep" aria-hidden="true">B</div>
+                <div class="comment-content">
+                  <div class="comment-header">
+                    <strong>Anonymous student</strong>
+                    <span>June 7</span>
+                  </div>
+                  <p>The website made animal welfare feel more relevant than I expected.</p>
+                  <div class="comment-actions" aria-label="Comment actions">
+                    <button class="comment-action-button like-button" type="button" data-comment-id="comment-12" data-base-likes="6">
+                      Like
+                    </button>
+                    <button class="comment-action-button reply-button" type="button" data-comment-id="comment-12">
+                      Reply
+                    </button>
+                    <span class="like-count" data-comment-id="comment-12">6 students relate</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="feed-comment">
+                <div class="comment-avatar alt" aria-hidden="true">K</div>
+                <div class="comment-content">
+                  <div class="comment-header">
+                    <strong>Anonymous student</strong>
+                    <span>June 7</span>
+                  </div>
+                  <p>I’m not sure if I would volunteer, but I would probably follow updates.</p>
+                  <div class="comment-actions" aria-label="Comment actions">
+                    <button class="comment-action-button like-button" type="button" data-comment-id="comment-13" data-base-likes="7">
+                      Like
+                    </button>
+                    <button class="comment-action-button reply-button" type="button" data-comment-id="comment-13">
+                      Reply
+                    </button>
+                    <span class="like-count" data-comment-id="comment-13">7 students relate</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="feed-comment">
+                <div class="comment-avatar warm" aria-hidden="true">D</div>
+                <div class="comment-content">
+                  <div class="comment-header">
+                    <strong>Anonymous student</strong>
+                    <span>June 7</span>
+                  </div>
+                  <p>I think this was a cool idea for students who want to help animals.</p>
+                  <div class="comment-actions" aria-label="Comment actions">
+                    <button class="comment-action-button like-button" type="button" data-comment-id="comment-14" data-base-likes="12">
+                      Like
+                    </button>
+                    <button class="comment-action-button reply-button" type="button" data-comment-id="comment-14">
+                      Reply
+                    </button>
+                    <span class="like-count" data-comment-id="comment-14">12 students relate</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="news" class="story-carousel section-pad" aria-labelledby="story-carousel-title">
+        <div class="story-carousel-heading">
+          <div>
+            <p class="eyebrow">Animal Stories</p>
+            <h2 id="story-carousel-title">Hear Our Stories</h2>
+          </div>
+          <div class="story-controls" aria-label="Story carousel controls">
+            <button class="story-control" type="button" data-story-prev aria-label="Previous story">‹</button>
+            <button class="story-control" type="button" data-story-next aria-label="Next story">›</button>
+          </div>
+        </div>
+
+        <div class="story-window" aria-live="polite">
+          <div class="story-track" data-story-track>
+            <article class="story-card">
+              <img
+                src="https://spca.bc.ca/wp-content/uploads/2026/06/sylvester-the-cat-x-ray-with-bullet.png"
+                alt="Sylvester the cat from a BC SPCA animal story"
+              />
+              <div>
+                <span>June 5, 2026</span>
+                <h3>The love buried beneath Sylvester’s scars</h3>
+                <p>
+                  Sylvester’s story shows how much care can be hidden behind one animal’s quiet
+                  recovery.
+                </p>
+                <a href="https://spca.bc.ca/news/the-love-buried-beneath-sylvesters-scars/" target="_blank" rel="noopener">Read Story</a>
+              </div>
+            </article>
+
+            <article class="story-card">
+              <img
+                src="https://spca.bc.ca/wp-content/uploads/2026/05/Pet-Food-Bank-banner-for-news-item.png"
+                alt="BC SPCA pet food bank support"
+              />
+              <div>
+                <span>May 13, 2026</span>
+                <h3>Rising demand for BC SPCA pet food banks underscores critical need</h3>
+                <p>
+                  Pet food banks help families keep animals fed and cared for during hard weeks.
+                </p>
+                <a href="https://spca.bc.ca/news/rising-demand-for-bc-spca-pet-food-banks-underscores-critical-need-for-community-support/" target="_blank" rel="noopener">Read Story</a>
+              </div>
+            </article>
+
+            <article class="story-card">
+              <img
+                src="https://spca.bc.ca/wp-content/uploads/2026/05/3-pigs-henry-ernest-vincent-in-barn.jpg"
+                alt="Three pigs cared for by the BC SPCA"
+              />
+              <div>
+                <span>May 8, 2026</span>
+                <h3>A new beginning for three (not so little) pigs</h3>
+                <p>
+                  Henry, Vincent, and Ernest needed patience, safe care, and people willing to help.
+                </p>
+                <a href="https://spca.bc.ca/news/a-new-beginning-for-three-not-so-little-pigs/" target="_blank" rel="noopener">Read Story</a>
+              </div>
+            </article>
+
+            <article class="story-card">
+              <img
+                src="https://spca.bc.ca/wp-content/uploads/2022/04/news-black-bear-and-cub-Maja-Lakhani.jpeg"
+                alt="A black bear mother and cub"
+              />
+              <div>
+                <span>May 8, 2026</span>
+                <h3>Five awesome animal moms</h3>
+                <p>
+                  A quick reminder that the animal world is full of protective, patient, amazing moms.
+                </p>
+                <a href="https://spca.bc.ca/news/five-awesome-animal-moms/" target="_blank" rel="noopener">Read Story</a>
+              </div>
+            </article>
+
+            <article class="story-card">
+              <img
+                src="https://spca.bc.ca/wp-content/uploads/2026/04/Zoe-gray-cat-on-office-chair.jpg"
+                alt="Zoe the gray cat resting on an office chair"
+              />
+              <div>
+                <span>April 10, 2026</span>
+                <h3>Zoe finds comfort during her stay with the BC SPCA</h3>
+                <p>
+                  Zoe’s story shows how emergency support can protect pets when families are in crisis.
+                </p>
+                <a href="https://spca.bc.ca/news/zoe-finds-comfort-cat-emergency-boarding-story/" target="_blank" rel="noopener">Read Story</a>
+              </div>
+            </article>
+
+            <article class="story-card">
+              <img
+                src="https://spca.bc.ca/wp-content/uploads/2026/03/Gus-in-care-at-the-BCSPCA.png"
+                alt="Gus during his time in BC SPCA care"
+              />
+              <div>
+                <span>March 6, 2026</span>
+                <h3>Home at last: Gus’s journey to his forever family</h3>
+                <p>
+                  Gus’s path from hardship to home is exactly why animal welfare stories matter.
+                </p>
+                <a href="https://spca.bc.ca/news/home-at-last-gus-journey-to-his-forever-family/" target="_blank" rel="noopener">Read Story</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>Small actions can help more people learn how to support shelter animals in BC.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 625" role="img" aria-labelledby="title desc">
+  <title id="title">Shelter support supplies and animals</title>
+  <desc id="desc">A bright illustration of a shelter support table with pet food, towels, a cat, and a dog.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#e4f2ec"/>
+      <stop offset="1" stop-color="#d9edf4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="625" fill="url(#bg)"/>
+  <rect x="72" y="82" width="856" height="360" rx="8" fill="#ffffff" opacity=".72"/>
+  <path d="M108 390h784" stroke="#b8d9df" stroke-width="14" stroke-linecap="round"/>
+  <g transform="translate(95 338)">
+    <rect x="0" y="70" width="270" height="78" rx="8" fill="#2e7d96"/>
+    <rect x="24" y="34" width="270" height="82" rx="8" fill="#6fae9b"/>
+    <rect x="48" y="0" width="270" height="82" rx="8" fill="#fbf8ef"/>
+    <path d="M83 42h184" stroke="#7fb9c7" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(468 220)">
+    <path d="M42 170c6-69 52-120 125-124 82 0 142 51 153 123 12 80-45 146-138 146-91 0-148-64-140-145z" fill="#c8955b"/>
+    <path d="M60 151C28 98 17 58 44 36c37 12 68 46 94 96M250 147c38-46 71-76 101-61-8 41-34 76-80 109" fill="#9f6b3c"/>
+    <circle cx="122" cy="166" r="14" fill="#17333a"/>
+    <circle cx="220" cy="166" r="14" fill="#17333a"/>
+    <path d="M151 211c18 15 38 15 57 0" fill="none" stroke="#17333a" stroke-width="8" stroke-linecap="round"/>
+    <path d="M170 191l19 18 20-18" fill="#17333a"/>
+    <path d="M49 276l-34 103M286 276l43 103" stroke="#9f6b3c" stroke-width="24" stroke-linecap="round"/>
+    <path d="M326 204c61 12 103 50 126 108" fill="none" stroke="#c8955b" stroke-width="28" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(210 168)">
+    <path d="M32 128c7-60 52-103 114-103 64 0 111 43 119 103 8 72-44 125-116 125S24 199 32 128z" fill="#f7f3ea"/>
+    <path d="M42 116C14 78 6 45 26 29c30 12 54 38 73 75M207 110c31-30 58-47 80-32-7 32-27 59-62 79" fill="#d6a06b"/>
+    <circle cx="100" cy="125" r="11" fill="#17333a"/>
+    <circle cx="176" cy="125" r="11" fill="#17333a"/>
+    <path d="M123 164c14 12 33 12 48 0" fill="none" stroke="#17333a" stroke-width="7" stroke-linecap="round"/>
+    <path d="M136 148l15 14 16-14" fill="#cc7770"/>
+  </g>
+  <g transform="translate(650 140)">
+    <rect x="0" y="96" width="128" height="176" rx="8" fill="#fbf8ef"/>
+    <path d="M28 96V48c0-27 19-44 46-44s46 17 46 44v48" fill="none" stroke="#3d8b78" stroke-width="18" stroke-linecap="round"/>
+    <path d="M30 148h68M30 184h58M30 220h76" stroke="#7fb9c7" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(772 266)">
+    <rect x="0" y="0" width="112" height="154" rx="8" fill="#2e7d96"/>
+    <path d="M31 34h50M31 68h50M31 102h36" stroke="#e4f2ec" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="82" cy="128" r="15" fill="#fbf8ef"/>
+  </g>
+</svg>
