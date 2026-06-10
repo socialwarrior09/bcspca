@@ -48,13 +48,15 @@ a {
 }
 
 .site-disclaimer {
-  padding: 8px clamp(18px, 4vw, 56px);
-  color: #f8fbf6;
-  background: var(--deep-green);
-  font-size: 0.88rem;
-  font-weight: 700;
+  padding: 12px clamp(18px, 4vw, 56px);
+  color: #17333a;
+  background: var(--sun);
+  border-bottom: 3px solid var(--deep-green);
+  font-size: clamp(0.98rem, 2.1vw, 1.14rem);
+  font-weight: 900;
   line-height: 1.35;
   text-align: center;
+  box-shadow: 0 8px 22px rgba(31, 75, 82, 0.12);
 }
 
 .site-header {
@@ -1632,6 +1634,11 @@ textarea {
 }
 
 @media (max-width: 860px) {
+  .site-disclaimer {
+    padding: 11px 18px;
+    font-size: 0.98rem;
+  }
+
   .site-header {
     align-items: flex-start;
     flex-direction: column;
@@ -1701,8 +1708,10 @@ textarea {
     padding: 48px 16px;
   }
 
-  .site-header {
-    position: static;
+  .site-disclaimer {
+    padding: 10px 14px;
+    font-size: 0.92rem;
+    line-height: 1.3;
   }
 
   .brand {
