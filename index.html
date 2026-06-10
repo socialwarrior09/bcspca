@@ -877,6 +877,16 @@
       <p>Small actions can help more people learn how to support shelter animals in BC.</p>
     </footer>
 
+    <script src="https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"></script>
+    <script>
+      if (window.mixpanel) {
+        mixpanel.init("92279a431ab1c4f588626f16ec5a94f1", {
+          debug: false,
+          track_pageview: true,
+          persistence: "localStorage",
+        });
+      }
+    </script>
     <script src="script.js"></script>
   </body>
 </html>

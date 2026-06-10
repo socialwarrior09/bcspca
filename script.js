@@ -10,6 +10,71 @@ const repliesStorageKey = "leadership12CommentReplies";
 const shareButtons = document.querySelectorAll("[data-share-button]");
 const petHearts = document.querySelectorAll(".pet-heart");
 
+function getSectionName(element) {
+  const section = element.closest("section, header, footer");
+  if (!section) return "Page";
+  if (section.id) return section.id;
+  if (section.classList.length > 0) return section.classList[0];
+  return section.tagName.toLowerCase();
+}
+
+function getClickLabel(element) {
+  const label = element.getAttribute("aria-label") || element.textContent || element.getAttribute("title") || "Unnamed click";
+  return label.replace(/\s+/g, " ").trim();
+}
+
+function trackEvent(eventName, properties = {}) {
+  if (!window.mixpanel || typeof window.mixpanel.track !== "function") return;
+
+  window.mixpanel.track(eventName, {
+    page_title: document.title,
+    page_path: window.location.pathname,
+    page_hash: window.location.hash,
+    ...properties,
+  });
+}
+
+document.addEventListener("click", (event) => {
+  const clickable = event.target.closest("a, button, [role='button']");
+  if (!clickable) return;
+
+  const destination = clickable.getAttribute("href") || clickable.dataset.shareUrl || "";
+
+  trackEvent("Button Clicked", {
+    button_text: getClickLabel(clickable),
+    section: getSectionName(clickable),
+    element_type: clickable.tagName.toLowerCase(),
+    destination,
+    is_external: /^https?:\/\//.test(destination),
+    classes: clickable.className || "",
+  });
+});
+
+if ("IntersectionObserver" in window) {
+  const viewedSections = new Set();
+  const sectionObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+
+        const section = entry.target;
+        const sectionName = section.id || section.classList[0] || section.tagName.toLowerCase();
+
+        if (viewedSections.has(sectionName)) return;
+
+        viewedSections.add(sectionName);
+        trackEvent("Section Viewed", {
+          section: sectionName,
+          heading: section.querySelector("h1, h2")?.textContent?.trim() || sectionName,
+        });
+      });
+    },
+    { threshold: 0.45 }
+  );
+
+  document.querySelectorAll("header, section, footer").forEach((section) => sectionObserver.observe(section));
+}
+
 faqButtons.forEach((button) => {
   button.addEventListener("click", () => {
     const faqItem = button.closest(".faq-item");
@@ -30,6 +95,11 @@ petHearts.forEach((heart) => {
     const isSaved = heart.classList.toggle("is-saved");
     heart.setAttribute("aria-pressed", String(isSaved));
     heart.textContent = isSaved ? "♥" : "♡";
+    trackEvent("Pet Heart Toggled", {
+      pet_name: heart.closest(".pet-card")?.querySelector("h3")?.textContent?.trim() || "Unknown pet",
+      saved: isSaved,
+      section: getSectionName(heart),
+    });
   }
 
   heart.addEventListener("click", toggleHeart);
