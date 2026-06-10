@@ -35,7 +35,11 @@ function trackEvent(eventName, properties = {}) {
 }
 
 trackEvent("Website Loaded", {
-  tracking_version: "github-pages-mixpanel-v2",
+  tracking_version: "mixpanel-header-snippet-v1",
+});
+
+trackEvent("Page Viewed", {
+  tracking_version: "mixpanel-header-snippet-v1",
 });
 
 document.addEventListener("click", (event) => {

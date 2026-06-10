@@ -10,6 +10,82 @@
     <title>Small Actions, Big Impact | Helping Shelter Animals in BC</title>
     <link rel="preconnect" href="https://images.pexels.com" />
     <link rel="stylesheet" href="styles.css" />
+    <script type="text/javascript">
+      (function(e, c) {
+        if (!c.__SV) {
+          var l, h;
+          window.mixpanel = c;
+          c._i = [];
+          c.init = function(q, r, f) {
+            function t(d, a) {
+              var g = a.split(".");
+              if (g.length === 2) {
+                d = d[g[0]];
+                a = g[1];
+              }
+              d[a] = function() {
+                d.push([a].concat(Array.prototype.slice.call(arguments, 0)));
+              };
+            }
+            var b = c;
+            if (typeof f !== "undefined") {
+              b = c[f] = [];
+            } else {
+              f = "mixpanel";
+            }
+            b.people = b.people || [];
+            b.toString = function(d) {
+              var a = "mixpanel";
+              if (f !== "mixpanel") a += "." + f;
+              if (!d) a += " (stub)";
+              return a;
+            };
+            b.people.toString = function() {
+              return b.toString(1) + ".people (stub)";
+            };
+            l = "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders start_session_recording stop_session_recording people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+            for (h = 0; h < l.length; h++) t(b, l[h]);
+            var n = "set set_once union unset remove delete".split(" ");
+            b.get_group = function() {
+              function d(p) {
+                a[p] = function() {
+                  b.push([g, [p].concat(Array.prototype.slice.call(arguments, 0))]);
+                };
+              }
+              var a = {};
+              var g = ["get_group"].concat(Array.prototype.slice.call(arguments, 0));
+              var m;
+              for (m = 0; m < n.length; m++) d(n[m]);
+              return a;
+            };
+            c._i.push([q, r, f]);
+          };
+          c.__SV = 1.2;
+          var k = e.createElement("script");
+          k.type = "text/javascript";
+          k.async = true;
+          k.src = typeof MIXPANEL_CUSTOM_LIB_URL !== "undefined"
+            ? MIXPANEL_CUSTOM_LIB_URL
+            : e.location.protocol === "file:" && "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)
+              ? "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"
+              : "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";
+          var firstScript = e.getElementsByTagName("script")[0];
+          firstScript.parentNode.insertBefore(k, firstScript);
+        }
+      })(document, window.mixpanel || []);
+
+      mixpanel.init("92279a431ab1c4f588626f16ec5a94f1", {
+        autocapture: true,
+        record_sessions_percent: 100,
+        debug: true,
+        persistence: "localStorage",
+      });
+
+      mixpanel.track("Mixpanel Verification Event", {
+        setup_source: "github_pages",
+        tracking_version: "mixpanel-header-snippet-v1",
+      });
+    </script>
   </head>
   <body>
     <header class="site-header" aria-label="Page header">
@@ -877,20 +953,6 @@
       <p>Small actions can help more people learn how to support shelter animals in BC.</p>
     </footer>
 
-    <script src="https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"></script>
-    <script>
-      if (window.mixpanel) {
-        mixpanel.init("92279a431ab1c4f588626f16ec5a94f1", {
-          debug: true,
-          track_pageview: true,
-          persistence: "localStorage",
-        });
-        mixpanel.track("Mixpanel Verification Event", {
-          setup_source: "github_pages",
-          tracking_version: "mixpanel-v3",
-        });
-      }
-    </script>
     <script src="script.js?v=mixpanel-v3"></script>
   </body>
 </html>
