@@ -881,12 +881,16 @@
     <script>
       if (window.mixpanel) {
         mixpanel.init("92279a431ab1c4f588626f16ec5a94f1", {
-          debug: false,
+          debug: true,
           track_pageview: true,
           persistence: "localStorage",
         });
+        mixpanel.track("Mixpanel Verification Event", {
+          setup_source: "github_pages",
+          tracking_version: "mixpanel-v3",
+        });
       }
     </script>
-    <script src="script.js"></script>
+    <script src="script.js?v=mixpanel-v3"></script>
   </body>
 </html>

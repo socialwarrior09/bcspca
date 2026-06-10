@@ -34,6 +34,10 @@ function trackEvent(eventName, properties = {}) {
   });
 }
 
+trackEvent("Website Loaded", {
+  tracking_version: "github-pages-mixpanel-v2",
+});
+
 document.addEventListener("click", (event) => {
   const clickable = event.target.closest("a, button, [role='button']");
   if (!clickable) return;
