@@ -56,6 +56,14 @@ document.addEventListener("click", (event) => {
     is_external: /^https?:\/\//.test(destination),
     classes: clickable.className || "",
   });
+
+  if (clickable.dataset.trackButton) {
+    trackEvent("Student Help CTA Clicked", {
+      cta_name: clickable.dataset.trackButton,
+      cta_group: clickable.dataset.trackGroup || getSectionName(clickable),
+      destination,
+    });
+  }
 });
 
 if ("IntersectionObserver" in window) {

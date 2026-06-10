@@ -41,6 +41,16 @@ a {
   color: inherit;
 }
 
+.site-disclaimer {
+  padding: 8px clamp(18px, 4vw, 56px);
+  color: #f8fbf6;
+  background: var(--deep-green);
+  font-size: 0.88rem;
+  font-weight: 700;
+  line-height: 1.35;
+  text-align: center;
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -1607,6 +1617,12 @@ textarea {
   max-width: 980px;
   margin: 0 auto;
   text-align: center;
+}
+
+.site-footer p + p {
+  margin-top: 12px;
+  color: rgba(217, 237, 244, 0.82);
+  font-size: 0.86rem;
 }
 
 @media (max-width: 1080px) {
