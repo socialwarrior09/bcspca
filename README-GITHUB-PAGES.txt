@@ -1,18 +1,15 @@
-GitHub Pages upload notes
+GitHub Pages submission notes
 
-Keep these files at the root of your GitHub repository:
+Upload these root-level files and folders to your GitHub repository:
 
 - index.html
 - styles.css
 - script.js
 - assets/
 
-Before publishing, replace these placeholder links in index.html:
+The homepage file is already named index.html and is already in the root folder.
 
-- #GOOGLE_FORM_LINK
-  Use this for the "Take the 1-Min Quiz" button.
+The quiz and comment buttons already point to:
+https://forms.gle/NYQpurNnYWfXpXacA
 
-- #COMMENT_FORM_LINK
-  Use this for the "Leave a Comment" Google Form button.
-
-For GitHub Pages, index.html must stay in the main/root folder of the repository.
+After uploading to GitHub, enable GitHub Pages from the repository settings and choose the branch/folder that contains index.html.

@@ -291,9 +291,3 @@ if (heroTrack) {
   updateHeroCarousel();
   startHeroCarousel();
 }
-
-document.querySelectorAll('a[href^="#TRACKED"], a[href="#GOOGLE_FORM_LINK"], a[href="#COMMENT_FORM_LINK"]').forEach((link) => {
-  link.addEventListener("click", () => {
-    console.info(`Placeholder link clicked: ${link.getAttribute("href")}`);
-  });
-});
